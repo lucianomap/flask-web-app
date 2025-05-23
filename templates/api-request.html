@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flask + JavaScript API Test</title>
+</head>
+<body>
+  <h1>Flask API Request</h1>
+  <button id="fetch-button">Fetch Data</button>
+  <div id="result" style="margin-top: 20px;"></div>
+
+  <script src="{{ url_for('static', filename='api-request.js') }}"></script>
+</body>
+</html>
